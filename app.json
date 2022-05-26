@@ -1,0 +1,21 @@
+{
+  "name": "vtdownloader",
+  "description": "Tiktok Video Downloader",
+  "keywords": [
+    "video tiktok downloader",
+    "vtdownloader"
+  ],
+  "repository": "https://github.com/aripstill/vtdownloader",
+  "website": "https://github.com",
+  "stack": "container",
+  "env": {
+    "token": {
+      "description": "ur discord bot token.",
+      "required": true
+    },
+    "heroku_app_name": {
+      "description": "ur heroku app name.",
+      "required": true
+    }
+  }
+}
